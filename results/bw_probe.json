@@ -1,0 +1,40 @@
+{
+ "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+ "dtype": "bf16",
+ "tests": {
+  "256MiB": {
+   "read_GBps": 183.1,
+   "read_GBps_best": 207.6,
+   "copy_GBps": 152.0,
+   "copy_GBps_best": 184.8
+  },
+  "512MiB": {
+   "read_GBps": 161.2,
+   "read_GBps_best": 204.4,
+   "copy_GBps": 187.3,
+   "copy_GBps_best": 203.3
+  },
+  "1024MiB": {
+   "read_GBps": 209.1,
+   "read_GBps_best": 220.1,
+   "copy_GBps": 156.9,
+   "copy_GBps_best": 202.3
+  },
+  "2048MiB": {
+   "read_GBps": 195.8,
+   "read_GBps_best": 219.6,
+   "copy_GBps": 152.0,
+   "copy_GBps_best": 194.8
+  },
+  "gemm_4096": {
+   "bf16_TFLOPS": 27.5,
+   "bf16_TFLOPS_best": 28.7
+  },
+  "gemm_8192": {
+   "bf16_TFLOPS": 22.5,
+   "bf16_TFLOPS_best": 24.1
+  }
+ },
+ "peak_read_GBps": 209.1,
+ "peak_bf16_TFLOPS": 27.5
+}

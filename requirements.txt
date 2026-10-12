@@ -1,0 +1,4 @@
+# 本机实测环境：Python 3.12.6 + torch 2.12.0+cu126（Windows）
+# 要求 torch >= 2.5：需要 F.scaled_dot_product_attention 的 enable_gqa 参数
+# 与 SDPBackend.CUDNN_ATTENTION 后端。低版本会直接跑不起来。
+torch>=2.5

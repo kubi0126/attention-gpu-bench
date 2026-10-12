@@ -1,0 +1,42 @@
+[
+ {
+  "H_kv": 8,
+  "type": "MHA",
+  "max_B_real": 406,
+  "max_B_pred": 406,
+  "B_truncated": false,
+  "max_S_real": 207935,
+  "max_S_pred": 208000,
+  "S_truncated": false
+ },
+ {
+  "H_kv": 4,
+  "type": "GQA",
+  "max_B_real": 812,
+  "max_B_pred": 812,
+  "B_truncated": false,
+  "max_S_real": 415871,
+  "max_S_pred": 416000,
+  "S_truncated": false
+ },
+ {
+  "H_kv": 2,
+  "type": "GQA",
+  "max_B_real": 1623,
+  "max_B_pred": 1625,
+  "B_truncated": false,
+  "max_S_real": 831743,
+  "max_S_pred": 832000,
+  "S_truncated": false
+ },
+ {
+  "H_kv": 1,
+  "type": "MQA",
+  "max_B_real": 3242,
+  "max_B_pred": 3250,
+  "B_truncated": false,
+  "max_S_real": 1663487,
+  "max_S_pred": 1664000,
+  "S_truncated": false
+ }
+]

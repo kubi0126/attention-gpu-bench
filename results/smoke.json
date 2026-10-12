@@ -1,0 +1,62 @@
+[
+ {
+  "B": 1,
+  "S": 512,
+  "H_kv": 8,
+  "type": "MHA",
+  "backend": "cudnn",
+  "status": "ok",
+  "ms": 0.075,
+  "ms_min": 0.055,
+  "ms_max": 0.103,
+  "tflops": 7.18,
+  "peak_MiB": 2.0,
+  "max_diff_vs_math": 0.00781,
+  "kv_MiB": 2.0
+ },
+ {
+  "B": 1,
+  "S": 512,
+  "H_kv": 8,
+  "type": "MHA",
+  "backend": "math",
+  "status": "ok",
+  "ms": 0.401,
+  "ms_min": 0.385,
+  "ms_max": 0.501,
+  "tflops": 1.34,
+  "peak_MiB": 28.0,
+  "max_diff_vs_math": 0.0,
+  "kv_MiB": 2.0
+ },
+ {
+  "B": 1,
+  "S": 512,
+  "H_kv": 1,
+  "type": "MQA",
+  "backend": "cudnn",
+  "status": "ok",
+  "ms": 0.052,
+  "ms_min": 0.046,
+  "ms_max": 0.081,
+  "tflops": 10.28,
+  "peak_MiB": 2.0,
+  "max_diff_vs_math": 0.00781,
+  "kv_MiB": 0.2
+ },
+ {
+  "B": 1,
+  "S": 512,
+  "H_kv": 1,
+  "type": "MQA",
+  "backend": "math",
+  "status": "ok",
+  "ms": 0.439,
+  "ms_min": 0.421,
+  "ms_max": 0.539,
+  "tflops": 1.22,
+  "peak_MiB": 28.5,
+  "max_diff_vs_math": 0.0,
+  "kv_MiB": 0.2
+ }
+]
